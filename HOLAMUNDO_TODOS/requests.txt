@@ -1,0 +1,6 @@
+curl -X POST -H "Content-Type: application/json" -d '{"id": 2, "item": "HolaMundo"}' http://127.0.0.1:8000/todos
+
+curl -X PUT -H "Content-Type: application/json" -d '{"id":2, "item": "UpdatedItem222"}' http://127.0.0.1:8000/todos
+
+
+uvicorn main:app --reload
